@@ -1,7 +1,7 @@
 package org.example;
 
 public class SumCalculator {
-    public int sum(int n) {
+    public int sum(int n) throws InterruptedException {
         int result = 0;
         if(n <= 0) {
             throw new IllegalArgumentException();
